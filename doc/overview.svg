@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="70mm"
+   height="120mm"
+   viewBox="0 0 70 120"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-70.000002,-20.000001)">
+    <rect
+       style="fill:#dbcbe7;fill-opacity:0.501961;stroke:#6f2fa0;stroke-width:1.78561;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="38.21439"
+       height="18.214382"
+       x="85.892807"
+       y="20.892805" />
+    <rect
+       style="fill:#d1d1d1;fill-opacity:0.501961;stroke:#3f3f3f;stroke-width:1.49909;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2"
+       width="68.500908"
+       height="18.500912"
+       x="70.749542"
+       y="45.749546" />
+    <rect
+       style="fill:#d1d1d1;fill-opacity:0.501961;stroke:#3f3f3f;stroke-width:1.31709;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2-4"
+       width="58.682907"
+       height="18.682903"
+       x="75.658546"
+       y="95.658546" />
+    <rect
+       style="fill:#bfdbef;fill-opacity:0.501961;stroke:#0070c0;stroke-width:1.554;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3"
+       width="53.446003"
+       height="18.445997"
+       x="78.277"
+       y="70.777" />
+    <rect
+       style="fill:#ffbfbf;fill-opacity:0.501961;stroke:#dd0000;stroke-width:1.2623;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4"
+       width="63.737698"
+       height="18.737698"
+       x="73.131149"
+       y="120.63115" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="104.97933"
+       y="28.53652"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-size:4.23333px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3"
+         x="104.97933"
+         y="28.53652">Other</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.23333px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3"
+         x="104.97933"
+         y="33.828182"
+         id="tspan5">applications</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="104.93489"
+       y="53.525158"
+       id="text4-8"><tspan
+         sodipodi:role="line"
+         style="font-size:4.23333px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3"
+         x="104.93489"
+         y="53.525158"
+         id="tspan5-2">MX Port providing HTTP API</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.23333px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3"
+         x="104.93489"
+         y="58.816818"
+         id="tspan6">for reading the database</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="104.97623"
+       y="78.930298"
+       id="text7"><tspan
+         sodipodi:role="line"
+         style="stroke-width:3"
+         x="104.97623"
+         y="78.930298"
+         id="tspan10">Monitoring application</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:3"
+         x="104.97623"
+         y="84.221962"
+         id="tspan12">with database and UI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="104.99173"
+       y="103.53652"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="stroke-width:3"
+         x="104.99173"
+         y="103.53652">MX Port between</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:3"
+         x="104.99173"
+         y="108.82819"
+         id="tspan13">machine and application</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="104.90285"
+       y="128.53653"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="stroke-width:3"
+         x="104.90285"
+         y="128.53653">Sophisticated Machine</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:3"
+         x="104.90285"
+         y="133.82819"
+         id="tspan11">with temperature sensor</tspan></text>
+  </g>
+</svg>

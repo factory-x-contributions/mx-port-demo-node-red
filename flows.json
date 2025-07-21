@@ -1,1 +1,1160 @@
-[]
+[
+    {
+        "id": "fa3c3078627b6a7e",
+        "type": "tab",
+        "label": "Factory-X",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "40f3ec6792cfaf7b",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "name": "Sophisticated Machine with temperature sensor",
+        "style": {
+            "stroke": "#dd0000",
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#3f3f3f",
+            "fill-opacity": "0.5"
+        },
+        "nodes": [
+            "f8208cb1806f94ac",
+            "59b601732e7e97c4",
+            "660c0992df38dd33",
+            "5dccddb30f6c65d2"
+        ],
+        "x": 74,
+        "y": 1536.5,
+        "w": 892,
+        "h": 127
+    },
+    {
+        "id": "f2f7b4c7e47cad17",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "name": "MX Port between machine and application",
+        "style": {
+            "stroke": "#3f3f3f",
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#3f3f3f",
+            "fill-opacity": "0.5"
+        },
+        "nodes": [
+            "6c022a4c77c527d2",
+            "497d65defbde783e",
+            "17da02d7bfbe5239"
+        ],
+        "x": 128,
+        "y": 1153,
+        "w": 764,
+        "h": 334
+    },
+    {
+        "id": "c41219887710200d",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "name": "Monitoring application",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "fill-opacity": "0.5",
+            "label": true,
+            "color": "#3f3f3f"
+        },
+        "nodes": [
+            "fb8bf40986711657",
+            "5359654e9f3ccbe8",
+            "5cf76f7cf391efe9"
+        ],
+        "x": 188,
+        "y": 573,
+        "w": 624,
+        "h": 540
+    },
+    {
+        "id": "017eb39b86af29e1",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "name": "MX Port providing HTTP API for reading the database",
+        "style": {
+            "label": true,
+            "stroke": "#3f3f3f",
+            "fill": "#d1d1d1",
+            "fill-opacity": "0.5",
+            "color": "#3f3f3f"
+        },
+        "nodes": [
+            "a6367fe46eb3d303",
+            "dcb6f69e049d7b59",
+            "e2111e0a8cc94db3"
+        ],
+        "x": 48,
+        "y": 153,
+        "w": 944,
+        "h": 374
+    },
+    {
+        "id": "0f937763ddaec8b6",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "name": "Other application(s)",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "fill-opacity": "0.5",
+            "label": true,
+            "color": "#3f3f3f"
+        },
+        "nodes": [
+            "bdd6bfc2cee42350"
+        ],
+        "x": 434,
+        "y": 39,
+        "w": 172,
+        "h": 82
+    },
+    {
+        "id": "fb8bf40986711657",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "g": "c41219887710200d",
+        "name": "Database",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffefbf",
+            "label": true,
+            "color": "#3f3f3f"
+        },
+        "nodes": [
+            "678906fa67429ff9",
+            "2e801f4f33472aa8"
+        ],
+        "x": 214,
+        "y": 873,
+        "w": 558,
+        "h": 214
+    },
+    {
+        "id": "6c022a4c77c527d2",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "g": "f2f7b4c7e47cad17",
+        "name": "Modbus Adapter",
+        "style": {
+            "label": true,
+            "color": "#3f3f3f",
+            "fill": "#d1d1d1"
+        },
+        "nodes": [
+            "647e334de2561ae0",
+            "d125e10994af7aa5"
+        ],
+        "x": 154,
+        "y": 1379,
+        "w": 432,
+        "h": 82
+    },
+    {
+        "id": "497d65defbde783e",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "g": "f2f7b4c7e47cad17",
+        "name": "Converter",
+        "style": {
+            "label": true,
+            "color": "#3f3f3f",
+            "fill": "#d1d1d1"
+        },
+        "nodes": [
+            "5ec6c8747d24cfd3",
+            "7c4e5651a557d6c3"
+        ],
+        "x": 234,
+        "y": 1279,
+        "w": 512,
+        "h": 82
+    },
+    {
+        "id": "17da02d7bfbe5239",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "g": "f2f7b4c7e47cad17",
+        "name": "DB Gate",
+        "style": {
+            "label": true,
+            "color": "#3f3f3f",
+            "fill": "#d1d1d1"
+        },
+        "nodes": [
+            "b4a4e9f43b309dde",
+            "90b0eab166ec7475"
+        ],
+        "x": 614,
+        "y": 1179,
+        "w": 252,
+        "h": 82
+    },
+    {
+        "id": "5359654e9f3ccbe8",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "g": "c41219887710200d",
+        "name": "User interface",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#3f3f3f"
+        },
+        "nodes": [
+            "5f89ed326d00557f",
+            "c6646928707fa2af",
+            "999012c74c8944f5",
+            "5ddce9ffc961a8bb",
+            "bb2e22e5bdd70d04"
+        ],
+        "x": 534,
+        "y": 599,
+        "w": 252,
+        "h": 242
+    },
+    {
+        "id": "a6367fe46eb3d303",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "g": "017eb39b86af29e1",
+        "name": "HTTP-API Gate",
+        "style": {
+            "label": true,
+            "fill": "#d1d1d1",
+            "color": "#3f3f3f"
+        },
+        "nodes": [
+            "a93dd2af6a36cd24",
+            "53f8996f3b815b46",
+            "ee94e58936975ab1",
+            "7bf84abe0b29c773"
+        ],
+        "x": 74,
+        "y": 179,
+        "w": 892,
+        "h": 82
+    },
+    {
+        "id": "dcb6f69e049d7b59",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "g": "017eb39b86af29e1",
+        "name": "DB Adapter",
+        "style": {
+            "label": true,
+            "fill": "#d1d1d1",
+            "color": "#3f3f3f"
+        },
+        "nodes": [
+            "4685368c63e4d66f",
+            "b827edc82eb621ac"
+        ],
+        "x": 454,
+        "y": 379,
+        "w": 172,
+        "h": 122
+    },
+    {
+        "id": "e2111e0a8cc94db3",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "g": "017eb39b86af29e1",
+        "name": "Converter",
+        "style": {
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#3f3f3f"
+        },
+        "nodes": [
+            "2032a84d72a680c5",
+            "612ab89984290821"
+        ],
+        "x": 254,
+        "y": 279,
+        "w": 592,
+        "h": 82
+    },
+    {
+        "id": "5cf76f7cf391efe9",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "g": "c41219887710200d",
+        "name": "Application logic",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#3f3f3f"
+        },
+        "nodes": [
+            "9f4f9ee88953ea5e",
+            "f52dcc82afc30d19",
+            "ca2f3ab12ce4e892"
+        ],
+        "x": 214,
+        "y": 599,
+        "w": 292,
+        "h": 162
+    },
+    {
+        "id": "678906fa67429ff9",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "g": "fb8bf40986711657",
+        "name": "Initialization",
+        "style": {
+            "label": true,
+            "color": "#3f3f3f"
+        },
+        "nodes": [
+            "c586da4801b0c6da",
+            "6419b960167dac6a",
+            "55e80ceedd5897eb",
+            "c46144b5e5d78110"
+        ],
+        "x": 374,
+        "y": 899,
+        "w": 372,
+        "h": 162
+    },
+    {
+        "id": "b2e1dbcfc78bae4f",
+        "type": "modbus-client",
+        "name": "Modbus client for Sophisticated Machine",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "127.0.0.1",
+        "tcpPort": "10502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": 9600,
+        "serialDatabits": 8,
+        "serialStopbits": 1,
+        "serialParity": "none",
+        "serialConnectionDelay": 100,
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "1c6e12df1a7d9cf4",
+        "type": "sqlitedb",
+        "db": ":memory:",
+        "mode": "RWC"
+    },
+    {
+        "id": "a89e8e0a505ecfe1",
+        "type": "ui-base",
+        "name": "Factory",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": true
+    },
+    {
+        "id": "d349aba91e2e2309",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "87d3167cebef6f9a",
+        "type": "ui-page",
+        "name": "Sophisticated Machine",
+        "ui": "a89e8e0a505ecfe1",
+        "path": "/machine",
+        "icon": "cube",
+        "layout": "notebook",
+        "theme": "d349aba91e2e2309",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "50b56d37e7d41903",
+        "type": "ui-group",
+        "name": "Temperature of Sophisticated Machine",
+        "page": "87d3167cebef6f9a",
+        "width": "6",
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "647e334de2561ae0",
+        "type": "modbus-read",
+        "z": "fa3c3078627b6a7e",
+        "g": "6c022a4c77c527d2",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "InputRegister",
+        "adr": "0",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "m",
+        "delayOnStart": false,
+        "startDelayTime": "1",
+        "server": "b2e1dbcfc78bae4f",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 270,
+        "y": 1420,
+        "wires": [
+            [
+                "5ec6c8747d24cfd3"
+            ],
+            [
+                "d125e10994af7aa5"
+            ]
+        ]
+    },
+    {
+        "id": "d125e10994af7aa5",
+        "type": "modbus-response",
+        "z": "fa3c3078627b6a7e",
+        "g": "6c022a4c77c527d2",
+        "name": "",
+        "registerShowMax": 20,
+        "x": 470,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "f8208cb1806f94ac",
+        "type": "modbus-server",
+        "z": "fa3c3078627b6a7e",
+        "g": "40f3ec6792cfaf7b",
+        "name": "",
+        "logEnabled": false,
+        "hostname": "0.0.0.0",
+        "serverPort": 10502,
+        "responseDelay": 100,
+        "delayUnit": "ms",
+        "coilsBufferSize": 10000,
+        "holdingBufferSize": 10000,
+        "inputBufferSize": 10000,
+        "discreteBufferSize": 10000,
+        "showErrors": true,
+        "showStatusActivities": true,
+        "x": 860,
+        "y": 1600,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "59b601732e7e97c4",
+        "type": "function",
+        "z": "fa3c3078627b6a7e",
+        "g": "40f3ec6792cfaf7b",
+        "name": "generate temperature",
+        "func": "// Simulate fluctuating temperature values\nlet minTemp = 300;  // Minimum temperature (Kelvin)\nlet maxTemp = 400;  // Maximum temperature (Kelvin)\n\n// Generate a random temperature between minTemp and maxTemp\nlet temp_C = Math.random() * (maxTemp - minTemp) + minTemp;\n\nnode.status({fill:\"green\", shape:\"dot\", text: temp_C.toFixed(6) + \"K\"});\n\nmsg.payload = temp_C;  // Send only the temperature value as payload\nmsg.topic = \"Temperature Simulation\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 1600,
+        "wires": [
+            [
+                "5dccddb30f6c65d2"
+            ]
+        ]
+    },
+    {
+        "id": "660c0992df38dd33",
+        "type": "inject",
+        "z": "fa3c3078627b6a7e",
+        "g": "40f3ec6792cfaf7b",
+        "name": "",
+        "props": [],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 170,
+        "y": 1600,
+        "wires": [
+            [
+                "59b601732e7e97c4"
+            ]
+        ]
+    },
+    {
+        "id": "5dccddb30f6c65d2",
+        "type": "function",
+        "z": "fa3c3078627b6a7e",
+        "g": "40f3ec6792cfaf7b",
+        "name": "payload for Modbus injection",
+        "func": "msg.payload = {\n    value: Math.round(msg.payload * 100), // store multiple of 0.01 K in Modbus register\n    register: 'input',\n    address: 0,\n    disableMsgOutput: true\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 1600,
+        "wires": [
+            [
+                "f8208cb1806f94ac"
+            ]
+        ]
+    },
+    {
+        "id": "5ec6c8747d24cfd3",
+        "type": "function",
+        "z": "fa3c3078627b6a7e",
+        "g": "497d65defbde783e",
+        "name": "Kelvin to degrees Celsius",
+        "func": "msg.payload = (msg.payload - 27315) * 0.01; // convert K to °C\nnode.status({fill:\"green\", shape:\"dot\", text: msg.payload.toFixed(2) + \"°C\"});\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1320,
+        "wires": [
+            [
+                "7c4e5651a557d6c3"
+            ]
+        ]
+    },
+    {
+        "id": "c586da4801b0c6da",
+        "type": "inject",
+        "z": "fa3c3078627b6a7e",
+        "g": "678906fa67429ff9",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 470,
+        "y": 980,
+        "wires": [
+            [
+                "6419b960167dac6a",
+                "55e80ceedd5897eb",
+                "c46144b5e5d78110"
+            ]
+        ]
+    },
+    {
+        "id": "7c4e5651a557d6c3",
+        "type": "function",
+        "z": "fa3c3078627b6a7e",
+        "g": "497d65defbde783e",
+        "name": "params object for DB",
+        "func": "msg.params = {\n    $temperature: msg.payload,\n};\nmsg.payload = undefined;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 1320,
+        "wires": [
+            [
+                "b4a4e9f43b309dde"
+            ]
+        ]
+    },
+    {
+        "id": "b4a4e9f43b309dde",
+        "type": "sqlite",
+        "z": "fa3c3078627b6a7e",
+        "g": "17da02d7bfbe5239",
+        "mydb": "1c6e12df1a7d9cf4",
+        "sqlquery": "prepared",
+        "sql": "INSERT INTO machine_temperature (temperature) \nVALUES ($temperature);",
+        "name": "insert into DB",
+        "x": 720,
+        "y": 1220,
+        "wires": [
+            [
+                "90b0eab166ec7475"
+            ]
+        ]
+    },
+    {
+        "id": "2e801f4f33472aa8",
+        "type": "comment",
+        "z": "fa3c3078627b6a7e",
+        "g": "fb8bf40986711657",
+        "name": "database",
+        "info": "The real database itself is an invisible node.\nMore precisely, it is a global configuration node\nof type `sqlitedb`.\n\nMultiple tables can be added to the database.\nEach table name is composed of a machine name\nand a property name joined by an underscore.\nOnly the table `machine_temperature`\nis actually used in this demo project.\nThe table `otherMachine_someProperty` is just a dummy.\n\nThe `timestamp` column is mandatory for all tables\nbecause it is expected by the MX Port above.\nOther columns can be defined as needed.\n",
+        "x": 300,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "2032a84d72a680c5",
+        "type": "function",
+        "z": "fa3c3078627b6a7e",
+        "g": "e2111e0a8cc94db3",
+        "name": "prepare DB query",
+        "func": "// associate \"device\" and \"property\" with corresponding database table\nconst availableTables = flow.get('dbTables');\nconst table = msg.req.params.device + \"_\" + msg.req.params.property;\nconst tableIndex = availableTables.indexOf(table);\nif (tableIndex == -1) {\n    msg.statusCode = 404;\n    msg.statusMessage = \"Not Found\";\n    node.error(\"Device \\\"\" + msg.req.params.device + \"\\\" does not exist or does not have a property called \\\"\" + msg.req.params.property + \"\\\".\", msg);\n    return;\n}\n\n// process query parameters \"from\" and \"to\"\nconst fromReq = msg.req.query.from;\nconst toReq = msg.req.query.to;\nvar fromDate, toDate;\nif (fromReq) {\n    fromDate = new Date(fromReq);\n} else {\n    fromDate = toReq ? new Date(toReq) : new Date();\n    fromDate.setTime(fromDate.getTime() - 60*60*1000);\n}\nif (toReq) {\n    toDate = new Date(toReq);\n} else {\n    toDate = new Date(fromDate);\n    toDate.setTime(toDate.getTime() + 60*60*1000);\n}\nmsg.params = {\n    $from: fromDate.toISOString(),\n    $to: toDate.toISOString(),\n};\n\n// send message to correct node output\nconst result = new Array(availableTables.length);\nresult[tableIndex] = msg;\nreturn result;",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 320,
+        "wires": [
+            [
+                "4685368c63e4d66f"
+            ],
+            [
+                "b827edc82eb621ac"
+            ]
+        ]
+    },
+    {
+        "id": "612ab89984290821",
+        "type": "function",
+        "z": "fa3c3078627b6a7e",
+        "g": "e2111e0a8cc94db3",
+        "name": "prepare API response",
+        "func": "for (const e of msg.payload) {\n    e.timestamp = new Date(e.timestamp * 1000); /* convert seconds (SQLITE convention) to milliseconds (JavaScript convention), then to Date object */\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 320,
+        "wires": [
+            [
+                "53f8996f3b815b46"
+            ]
+        ]
+    },
+    {
+        "id": "a93dd2af6a36cd24",
+        "type": "http in",
+        "z": "fa3c3078627b6a7e",
+        "g": "a6367fe46eb3d303",
+        "name": "",
+        "url": "/factoryx/:device/:property",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 220,
+        "wires": [
+            [
+                "2032a84d72a680c5"
+            ]
+        ]
+    },
+    {
+        "id": "53f8996f3b815b46",
+        "type": "http response",
+        "z": "fa3c3078627b6a7e",
+        "g": "a6367fe46eb3d303",
+        "name": "HTTP response",
+        "statusCode": "",
+        "headers": {},
+        "x": 860,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "90b0eab166ec7475",
+        "type": "link out",
+        "z": "fa3c3078627b6a7e",
+        "g": "17da02d7bfbe5239",
+        "name": "trigger for updating app UI",
+        "mode": "link",
+        "links": [
+            "f52dcc82afc30d19"
+        ],
+        "x": 825,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "f52dcc82afc30d19",
+        "type": "link in",
+        "z": "fa3c3078627b6a7e",
+        "g": "5cf76f7cf391efe9",
+        "name": "trigger for updating app UI",
+        "links": [
+            "90b0eab166ec7475"
+        ],
+        "x": 255,
+        "y": 720,
+        "wires": [
+            [
+                "9f4f9ee88953ea5e"
+            ]
+        ]
+    },
+    {
+        "id": "9f4f9ee88953ea5e",
+        "type": "sqlite",
+        "z": "fa3c3078627b6a7e",
+        "g": "5cf76f7cf391efe9",
+        "mydb": "1c6e12df1a7d9cf4",
+        "sqlquery": "fixed",
+        "sql": "SELECT\n    timestamp*1000 AS timestamp, /* convert seconds (SQLITE convention) to milliseconds (JavaScript convention) */\n    temperature\nFROM machine_temperature\nORDER BY rowid DESC\nLIMIT 20;",
+        "name": "read data",
+        "x": 340,
+        "y": 720,
+        "wires": [
+            [
+                "5f89ed326d00557f",
+                "c6646928707fa2af",
+                "999012c74c8944f5",
+                "ca2f3ab12ce4e892"
+            ]
+        ]
+    },
+    {
+        "id": "5f89ed326d00557f",
+        "type": "ui-table",
+        "z": "fa3c3078627b6a7e",
+        "g": "5359654e9f3ccbe8",
+        "group": "50b56d37e7d41903",
+        "name": "temperature table",
+        "label": " Latest Temperature Measurements",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": false,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [
+            {
+                "title": "Time [ms since UNIX epoch]",
+                "key": "timestamp",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Temperature [°C]",
+                "key": "temperature",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            }
+        ],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 650,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c6646928707fa2af",
+        "type": "ui-gauge",
+        "z": "fa3c3078627b6a7e",
+        "g": "5359654e9f3ccbe8",
+        "name": "temperature gauge",
+        "group": "50b56d37e7d41903",
+        "order": 1,
+        "value": "$round(payload[0].temperature, 2)",
+        "valueType": "jsonata",
+        "width": "6",
+        "height": "3",
+        "gtype": "gauge-half",
+        "gstyle": "rounded",
+        "title": "Current Temperature",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "100",
+                "color": "#ffc800"
+            },
+            {
+                "from": "120",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "150",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 650,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "999012c74c8944f5",
+        "type": "ui-chart",
+        "z": "fa3c3078627b6a7e",
+        "g": "5359654e9f3ccbe8",
+        "group": "50b56d37e7d41903",
+        "name": "temperature chart",
+        "label": "Recent Temerature Development",
+        "order": 2,
+        "chartType": "line",
+        "category": "",
+        "categoryType": "none",
+        "xAxisLabel": "",
+        "xAxisProperty": "timestamp",
+        "xAxisPropertyType": "property",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "Temperature [°C]",
+        "yAxisProperty": "temperature",
+        "yAxisPropertyType": "property",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "6",
+        "height": "5",
+        "className": "",
+        "interpolation": "cubicMono",
+        "x": 650,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca2f3ab12ce4e892",
+        "type": "function",
+        "z": "fa3c3078627b6a7e",
+        "g": "5cf76f7cf391efe9",
+        "name": "detect high temperature",
+        "func": "const temperature = msg.payload[0].temperature;\nif (temperature > 120) {\n    msg.payload = msg.payload = \"<h3>🚨 ALERT</h3><p>High Temperature of \" + temperature.toFixed(2) + \"°C!</p>\";;\n} else {\n    msg.payload = undefined;\n    msg.show = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 640,
+        "wires": [
+            [
+                "5ddce9ffc961a8bb"
+            ]
+        ]
+    },
+    {
+        "id": "5ddce9ffc961a8bb",
+        "type": "ui-notification",
+        "z": "fa3c3078627b6a7e",
+        "g": "5359654e9f3ccbe8",
+        "ui": "a89e8e0a505ecfe1",
+        "position": "top center",
+        "colorDefault": false,
+        "color": "#f35353",
+        "displayTime": "0",
+        "showCountdown": false,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": true,
+        "className": "",
+        "name": "high temperature alert",
+        "x": 660,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bb2e22e5bdd70d04",
+        "type": "comment",
+        "z": "fa3c3078627b6a7e",
+        "g": "5359654e9f3ccbe8",
+        "name": "dashboard",
+        "info": "The UI is available at http://localhost:1880/dashboard.\n\nTechnically, the UI is based on some (invisible) global configuration nodes,\nwhich are needed in addtion to the widget nodes seen above\nwithin the “User interface” group.",
+        "x": 620,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "ee94e58936975ab1",
+        "type": "catch",
+        "z": "fa3c3078627b6a7e",
+        "g": "a6367fe46eb3d303",
+        "name": "catch error",
+        "scope": [
+            "4685368c63e4d66f",
+            "2032a84d72a680c5",
+            "612ab89984290821",
+            "a93dd2af6a36cd24",
+            "b827edc82eb621ac"
+        ],
+        "uncaught": false,
+        "x": 500,
+        "y": 220,
+        "wires": [
+            [
+                "7bf84abe0b29c773"
+            ]
+        ]
+    },
+    {
+        "id": "bdd6bfc2cee42350",
+        "type": "comment",
+        "z": "fa3c3078627b6a7e",
+        "g": "0f937763ddaec8b6",
+        "name": "",
+        "info": "The application indicated by the surrounding box “Other application(s)”\nis not modelled within this Node-RED flow.\nSuch an application can be any application attaching to\nthe HTTP API exposed by the MX Port below.\n\nFor example, an AAS server might use the HTTP API of the MX Port below\nto retrieve the temperature data of the “Sophisticated Machine”\nfor providing this data in a suitable AAS submodel.\nSuch an AAS server can be further integrated\ninto a Hercules stack or a Leo stack.\nHerby, the temperature can be made available in the dataspace.\n",
+        "x": 520,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "55e80ceedd5897eb",
+        "type": "change",
+        "z": "fa3c3078627b6a7e",
+        "g": "678906fa67429ff9",
+        "name": "table names",
+        "rules": [
+            {
+                "t": "set",
+                "p": "dbTables",
+                "pt": "flow",
+                "to": "[\"machine_temperature\",\"otherMachine_someProperty\"]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7bf84abe0b29c773",
+        "type": "function",
+        "z": "fa3c3078627b6a7e",
+        "g": "a6367fe46eb3d303",
+        "name": "set response",
+        "func": "if (!msg.statusCode) {\n    msg.statusCode = 500;\n    msg.statusMessage = \"Internal Server Error\";\n}\nmsg.payload = {\n    status: msg.statusCode,\n    title: msg.statusMessage,\n    detail: msg.error.message,\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 220,
+        "wires": [
+            [
+                "53f8996f3b815b46"
+            ]
+        ]
+    },
+    {
+        "id": "b827edc82eb621ac",
+        "type": "sqlite",
+        "z": "fa3c3078627b6a7e",
+        "g": "dcb6f69e049d7b59",
+        "mydb": "1c6e12df1a7d9cf4",
+        "sqlquery": "prepared",
+        "sql": "SELECT * FROM otherMachine_someProperty\nWHERE timestamp >= unixepoch($from) AND timestamp <= unixepoch($to);",
+        "name": "read data",
+        "x": 540,
+        "y": 460,
+        "wires": [
+            [
+                "612ab89984290821"
+            ]
+        ]
+    },
+    {
+        "id": "c46144b5e5d78110",
+        "type": "sqlite",
+        "z": "fa3c3078627b6a7e",
+        "g": "678906fa67429ff9",
+        "mydb": "1c6e12df1a7d9cf4",
+        "sqlquery": "fixed",
+        "sql": "CREATE TABLE IF NOT EXISTS\notherMachine_someProperty (\n    timestamp INT DEFAULT (unixepoch('now')),\n    val1 REAL,\n    val2 REAL\n)\nSTRICT;\n",
+        "name": "another table",
+        "x": 640,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6419b960167dac6a",
+        "type": "sqlite",
+        "z": "fa3c3078627b6a7e",
+        "g": "678906fa67429ff9",
+        "mydb": "1c6e12df1a7d9cf4",
+        "sqlquery": "fixed",
+        "sql": "CREATE TABLE IF NOT EXISTS\nmachine_temperature (\n    timestamp INT DEFAULT (unixepoch('now')),\n    temperature REAL\n)\nSTRICT;\n",
+        "name": "fisrt table",
+        "x": 620,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4685368c63e4d66f",
+        "type": "sqlite",
+        "z": "fa3c3078627b6a7e",
+        "g": "dcb6f69e049d7b59",
+        "mydb": "1c6e12df1a7d9cf4",
+        "sqlquery": "prepared",
+        "sql": "SELECT * FROM machine_temperature\nWHERE timestamp >= unixepoch($from) AND timestamp <= unixepoch($to);",
+        "name": "read data",
+        "x": 540,
+        "y": 420,
+        "wires": [
+            [
+                "612ab89984290821"
+            ]
+        ]
+    }
+]

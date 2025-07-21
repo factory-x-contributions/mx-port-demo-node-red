@@ -2,7 +2,11 @@
     "name": "FX-Port_Node-RED",
     "description": "Illustrating the concept of FX Ports with Node-RED",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-modbus": "5.43.0",
+        "node-red-node-sqlite": "1.1.0",
+        "@flowfuse/node-red-dashboard": "1.25.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
