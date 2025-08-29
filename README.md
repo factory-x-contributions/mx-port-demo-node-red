@@ -1,21 +1,21 @@
-FX Port Demo with Node-RED
+MX Port Demo with Node-RED
 =======================
 
-*Illustrating the concept of FX Ports with Node-RED*
+*Illustrating the concept of MX Ports with Node-RED*
 
-This project is a self-contained demonstration system for the FX Port concept.
+This project is a self-contained demonstration system for the MX Port concept.
 It is implemented with Node-RED and it serves two purposes:
 
-1. The Node-RED flows in the project demonstrate the FX Port concept
+1. The Node-RED flows in the project demonstrate the MX Port concept
    both functionally and visually.
-   The FX Port components *Adapter*, *Converter* and *Gate* are considered here
+   The MX Port components *Adapter*, *Converter* and *Gate* are considered here
    while the components *Access and Usage Control* as well as *Discovery*
    are not covered.
 
 2. The project is a blueprint for IT/OT integration.
    Other heterogeneous sources can be integrated in the same way.
    The integration stack is implemented entirely in Node-RED.
-   The stack it begins with a Modbus device at the bottom
+   The stack begins with a Modbus device at the bottom
    and goes up to exposing an HTTP interface.
    
    On top of this, the integration stack can be extended by other applications.

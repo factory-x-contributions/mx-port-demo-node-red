@@ -1,6 +1,6 @@
 {
     "name": "FX-Port_Node-RED",
-    "description": "Illustrating the concept of FX Ports with Node-RED",
+    "description": "Illustrating the concept of MX Ports with Node-RED",
     "version": "0.0.1",
     "dependencies": {
         "node-red-contrib-modbus": "5.43.0",
