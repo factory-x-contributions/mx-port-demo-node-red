@@ -1,10 +1,11 @@
 {
     "name": "FX-Port_Node-RED",
     "description": "Illustrating the concept of MX Ports with Node-RED",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "dependencies": {
         "node-red-contrib-modbus": "5.43.0",
         "node-red-node-sqlite": "1.1.0",
+        "@alexandrainst/node-red-http-basic-auth": "3.2.0",
         "@flowfuse/node-red-dashboard": "1.25.0"
     },
     "node-red": {

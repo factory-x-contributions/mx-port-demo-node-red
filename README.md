@@ -21,7 +21,7 @@ It is implemented with Node-RED and it serves two purposes:
    On top of this, the integration stack can be extended by other applications.
    However, Node-RED is not needed for that because relevant softwares
    like AAS servers and connectors (EDC Connector and variants)
-   can integrate HTTP APIs as data sources out of the box
+   come with their own tools for integrating HTTP APIs as data sources
    (only configuration required).
 
 If you need help with running this project in Node-RED, read the section
@@ -37,7 +37,7 @@ The project has the following flow structure:
 
 The shown image depicts a vertical integration stack
 from a machine at the bottom to some arbitrary application at the top.
-Each box in the stack represents a system, wich is modeled within Node-RED
+Each box in the stack represents a system, which is modeled within Node-RED
 except for the upper box, which is only commented, but not implemented.
 The stack includes two MX Ports shown as grey boxes.
 For viewing the inner structure of each box, open the project in Node-RED.
@@ -57,6 +57,15 @@ shown above) has a single endpoint:
 ```http
 GET /factoryx/{device}/{property}
 ```
+
+The endpoint is secured with HTTP Basic Auth.
+Authenticate with username `user` and password `secret`.
+
+> [!CAUTION]
+> Please note that a proper deployment must be secured with TLS
+> for protecting the credentials transmitted over the network.
+> This can be achieved by configuring TLS in the Node-RED server
+> or by using a web server as reverse proxy.
 
 This endpoint fetches measurements as time series data.
 
@@ -126,7 +135,7 @@ Dependencies of a project on additional Node-RED modules are managed
 in the Node-RED frontend from within “**Project Settings**” menu
 found under “**Projects**” in the main menu.
 The dependencies configuration shown there corresponds
-to the dependencies declared in the projects’ `package.json` file.
+to the dependencies declared in the project’s `package.json` file.
 
 Declared dependencies must be installed locally.
 For this, the dependencies configuration menu shows an installation button
@@ -135,14 +144,23 @@ Additionally, managing all locally installed modules is done
 with the Palette Manger accessible under “**Manage palette**”
 in the Node-RED frontend main menu.
 
-See https://nodered.org/docs/user-guide/projects/
-for more information on working with projects in Node-RED.
+> [!TIP]
+> See https://nodered.org/docs/user-guide/projects/
+> for more information on working with projects in Node-RED.
 
 
 Project credentials
 -----------------
 
-This project is not intended to contain any secrets (passwords, keys),
+This project does not contain any secrets (passwords, keys)
+for accessing external systems,
 and hence it does not contain any credentials in its `flows_cred.json` file.
 Therefore, that file itself has not been encrypted.
-Consequently, when importing this project, you don't provide a credentials key.
+
+> [!TIP]
+> Consequently, when importing this project,
+> you leave the credentials key empty.
+
+Note that the HTTP API exposed by this project is secured with HTTP Basic Auth,
+and the login credentials for this API are managed in the file `.htpasswd`.
+This file is not related to the project credentials file mentioned before.

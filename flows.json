@@ -89,7 +89,8 @@
         "nodes": [
             "a6367fe46eb3d303",
             "dcb6f69e049d7b59",
-            "e2111e0a8cc94db3"
+            "e2111e0a8cc94db3",
+            "0266a78171dd533c"
         ],
         "x": 48,
         "y": 153,
@@ -258,7 +259,7 @@
             "4685368c63e4d66f",
             "b827edc82eb621ac"
         ],
-        "x": 454,
+        "x": 534,
         "y": 379,
         "w": 172,
         "h": 122
@@ -278,7 +279,7 @@
             "2032a84d72a680c5",
             "612ab89984290821"
         ],
-        "x": 254,
+        "x": 334,
         "y": 279,
         "w": 592,
         "h": 82
@@ -325,6 +326,26 @@
         "y": 899,
         "w": 372,
         "h": 162
+    },
+    {
+        "id": "0266a78171dd533c",
+        "type": "group",
+        "z": "fa3c3078627b6a7e",
+        "g": "017eb39b86af29e1",
+        "name": "Access Control",
+        "style": {
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#3f3f3f"
+        },
+        "nodes": [
+            "e1b590e3dd385d40",
+            "28857a1820bc6aac"
+        ],
+        "x": 74,
+        "y": 279,
+        "w": 232,
+        "h": 122
     },
     {
         "id": "b2e1dbcfc78bae4f",
@@ -450,6 +471,12 @@
         "visible": "true",
         "disabled": "false",
         "groupType": "default"
+    },
+    {
+        "id": "ac36c0971c06e4ba",
+        "type": "http-basic-auth-file",
+        "name": "",
+        "filePath": ".htpasswd"
     },
     {
         "id": "647e334de2561ae0",
@@ -691,7 +718,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
+        "x": 450,
         "y": 320,
         "wires": [
             [
@@ -715,7 +742,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 720,
+        "x": 800,
         "y": 320,
         "wires": [
             [
@@ -737,7 +764,7 @@
         "y": 220,
         "wires": [
             [
-                "2032a84d72a680c5"
+                "e1b590e3dd385d40"
             ]
         ]
     },
@@ -1008,7 +1035,7 @@
         "z": "fa3c3078627b6a7e",
         "g": "5359654e9f3ccbe8",
         "name": "dashboard",
-        "info": "The UI is available at http://localhost:1880/dashboard.\n\nTechnically, the UI is based on some (invisible) global configuration nodes,\nwhich are needed in addtion to the widget nodes seen above\nwithin the “User interface” group.",
+        "info": "The UI is available at [/dashboard](/dashboard).\n\nTechnically, the UI is based on some (invisible) global configuration nodes,\nwhich are needed in addtion to the widget nodes seen above\nwithin the “User interface” group.",
         "x": 620,
         "y": 800,
         "wires": []
@@ -1102,7 +1129,7 @@
         "sqlquery": "prepared",
         "sql": "SELECT * FROM otherMachine_someProperty\nWHERE timestamp >= unixepoch($from) AND timestamp <= unixepoch($to);",
         "name": "read data",
-        "x": 540,
+        "x": 620,
         "y": 460,
         "wires": [
             [
@@ -1149,12 +1176,43 @@
         "sqlquery": "prepared",
         "sql": "SELECT * FROM machine_temperature\nWHERE timestamp >= unixepoch($from) AND timestamp <= unixepoch($to);",
         "name": "read data",
-        "x": 540,
+        "x": 620,
         "y": 420,
         "wires": [
             [
                 "612ab89984290821"
             ]
         ]
+    },
+    {
+        "id": "e1b590e3dd385d40",
+        "type": "http-basic-auth",
+        "z": "fa3c3078627b6a7e",
+        "g": "0266a78171dd533c",
+        "name": "HTTP Basic Auth",
+        "file": "ac36c0971c06e4ba",
+        "multiple": "",
+        "realm": "Factory-X",
+        "username": "",
+        "password": "",
+        "x": 190,
+        "y": 320,
+        "wires": [
+            [
+                "2032a84d72a680c5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "28857a1820bc6aac",
+        "type": "comment",
+        "z": "fa3c3078627b6a7e",
+        "g": "0266a78171dd533c",
+        "name": "user management",
+        "info": "Users are managed in the file `.htpasswd`.\nThis is defined in an invisible configuration node\nof type `http-basic-auth-file`.",
+        "x": 190,
+        "y": 360,
+        "wires": []
     }
 ]
