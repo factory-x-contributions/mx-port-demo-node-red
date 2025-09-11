@@ -64,7 +64,8 @@ Authenticate with username `user` and password `secret`.
 > [!CAUTION]
 > Please note that a proper deployment must be secured with TLS
 > for protecting the credentials transmitted over the network.
-> This can be achieved by configuring TLS in the Node-RED server
+> This can be achieved by [configuring TLS in the Node-RED server](
+  https://nodered.org/docs/user-guide/runtime/securing-node-red#enabling-https-access)
 > or by using a web server as reverse proxy.
 
 This endpoint fetches measurements as time series data.
@@ -83,8 +84,8 @@ The endpoint has two optional *query parameters*:
 
 * `from`: A timestamp identifying the point in time
   from which the time series shall be returned.
-  Any date-time string accepted by the
-  [`Date.parse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse)
+  Any date-time string accepted by the [`Date.parse()`](
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse)
   method of JavaScript can be used, e.&thinsp;g. `from=2025-07-01T00:00:00Z`.
 * `to`: A timestamp identifying the point in time
   until which the time series shall be returned.
@@ -104,10 +105,7 @@ For example, a request to `/factoryx/machine/temperature`
 is replied with a response of the following kind: 
 
 ```json
-[
-    {"timestamp": "2025-07-01T16:26:30.000Z", "temperature": 54},
-    …
-]
+[{"timestamp": "2025-07-01T16:26:30.000Z", "temperature": 54.28}, …]
 ```
 
 In case of an error, the response status code is either 404 or 500,
