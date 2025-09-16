@@ -5,6 +5,7 @@
     "dependencies": {
         "@flowfuse/node-red-dashboard": "1.27.0",
         "node-red-contrib-modbus": "5.44.0",
+        "node-red-contrib-projectdir": "2.0.5",
         "node-red-contrib-reusable-flows": "1.0.0",
         "node-red-node-sqlite": "1.1.1"
     },

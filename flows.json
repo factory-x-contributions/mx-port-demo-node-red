@@ -1447,13 +1447,14 @@
         "type": "file in",
         "z": "12fa187f16afdda5",
         "name": "",
-        "filename": "./registeredUsers.json",
+        "filename": "msg.projectdir & '/registeredUsers.json'",
+        "filenameType": "jsonata",
         "format": "utf8",
         "chunk": false,
         "sendError": false,
         "encoding": "utf8",
         "allProps": false,
-        "x": 360,
+        "x": 520,
         "y": 540,
         "wires": [
             [
@@ -1471,7 +1472,7 @@
             "70c82a6e25251a70"
         ],
         "uncaught": false,
-        "x": 350,
+        "x": 490,
         "y": 600,
         "wires": [
             [
@@ -1492,7 +1493,7 @@
         "targetType": "full",
         "statusVal": "'could not load user registry, using fallback'",
         "statusType": "jsonata",
-        "x": 750,
+        "x": 890,
         "y": 600,
         "wires": []
     },
@@ -1524,7 +1525,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
+        "x": 690,
         "y": 600,
         "wires": [
             [
@@ -1545,7 +1546,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 560,
+        "x": 720,
         "y": 540,
         "wires": [
             [
@@ -1559,7 +1560,7 @@
         "z": "12fa187f16afdda5",
         "name": "return",
         "position": 1,
-        "x": 750,
+        "x": 910,
         "y": 540,
         "wires": []
     },
@@ -1574,7 +1575,7 @@
         "y": 540,
         "wires": [
             [
-                "2d98c64a67e881e7"
+                "bc6a41ae5a214530"
             ]
         ]
     },
@@ -1677,5 +1678,18 @@
         "y": 40,
         "wires": [],
         "icon": "node-red/alert.svg"
+    },
+    {
+        "id": "bc6a41ae5a214530",
+        "type": "projectdir",
+        "z": "12fa187f16afdda5",
+        "name": "",
+        "x": 360,
+        "y": 540,
+        "wires": [
+            [
+                "2d98c64a67e881e7"
+            ]
+        ]
     }
 ]
