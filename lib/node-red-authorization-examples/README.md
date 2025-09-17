@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: Copyright (c) 2021 Andreas Rozek
+SPDX-FileContributor: Andreas Rozek
+
+SPDX-License-Identifier: MIT
+-->
+
 This flow provides "basic HTTP Authorization" for HTTP endpoints which are intended for certain users only.
 
 > This flow is part of a set of [node-red-authorization-examples](https://github.com/rozek/node-red-authorization-examples) but also published here for easier lookup

@@ -1,0 +1,5 @@
+Copyright (c) 2025 Software GmbH, Darmstadt, Germany
+
+Contributors:
+Christian Winter (Software GmbH)
+Aerika Modi (Software GmbH)

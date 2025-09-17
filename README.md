@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: Copyright (c) 2025 Software GmbH, Darmstadt, Germany
+SPDX-FileContributor: Christian Winter (Software GmbH)
+-->
+
 MX Port Demo with Node-RED
 =======================
 
@@ -65,7 +70,7 @@ Authenticate with username `user` and password `secret`.
 > Please note that a proper deployment must be secured with TLS
 > for protecting the credentials transmitted over the network.
 > This can be achieved by [configuring TLS in the Node-RED server](
-  https://nodered.org/docs/user-guide/runtime/securing-node-red#enabling-https-access)
+> https://nodered.org/docs/user-guide/runtime/securing-node-red#enabling-https-access)
 > or by using a web server as reverse proxy.
 
 This endpoint fetches measurements as time series data.
@@ -162,3 +167,28 @@ Therefore, that file itself has not been encrypted.
 Note that the HTTP API exposed by this project is secured with HTTP Basic Auth,
 and the login credentials for this API are managed in the file `.htpasswd`.
 This file is not related to the project credentials file mentioned before.
+
+
+Funding notes
+------------
+
+This work was developed within the project Factory-X supported by the German
+Federal Ministry for Economic Affairs and Energy with funding from the
+European Union based on the NextGenerationEU package.
+
+![Funding logo](doc/funding.png)
+
+Disclaimer: The views and opinions expressed in this work are solely
+those of the authors and do not necessarily reflect the views of
+the German Federal Ministry for Economic Affairs and Energy,
+the European Union, or the European Commission.
+Neither the German Federal Ministry for Economic Affairs and Energy,nor the
+European Union, nor the European Commission can be held responsible for them.
+
+
+Legal notes
+----------
+
+Copyright (c) 2025 Software GmbH, Darmstadt, Germany
+
+License information to be added.

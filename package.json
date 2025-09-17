@@ -1,5 +1,5 @@
 {
-    "name": "FX-Port_Node-RED",
+    "name": "MX-Port_Node-RED",
     "description": "Illustrating the concept of MX Ports with Node-RED",
     "version": "1.0.0",
     "dependencies": {
