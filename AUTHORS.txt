@@ -1,5 +1,8 @@
+# MX Port Demo with Node-RED
+
 Copyright (c) 2025 Software GmbH, Darmstadt, Germany
 
-Contributors:
+## Contributors
+
 Christian Winter (Software GmbH)
 Aerika Modi (Software GmbH)

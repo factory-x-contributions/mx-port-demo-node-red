@@ -1,21 +1,24 @@
 <!--
 SPDX-FileCopyrightText: Copyright (c) 2025 Software GmbH, Darmstadt, Germany
 SPDX-FileContributor: Christian Winter (Software GmbH)
+
+SPDX-License-Identifier: Apache-2.0
 -->
 
 MX Port Demo with Node-RED
-=======================
+==========================
 
 *Illustrating the concept of MX Ports with Node-RED*
 
-This project is a self-contained demonstration system for the MX Port concept.
+This project is a self-contained demonstration system for the
+[MX Port concept](https://factory-x.org/wp-content/uploads/MX-Port-Concept-V1.00-1.pdf).
 It is implemented with Node-RED and it serves two purposes:
 
 1. The Node-RED flows in the project demonstrate the MX Port concept
-   both functionally and visually.
-   The MX Port components *Adapter*, *Converter* and *Gate* are considered here
-   while the components *Access and Usage Control* as well as *Discovery*
-   are not covered.
+   both functionally and visually. The MX Port components *Adapter*,
+   *Converter* and *Gate* are mainly considered here.
+   One of the two ports also comprises *Access Control* (but not
+   Usage Control) while *Discovery* is not covered.
 
 2. The project is a blueprint for IT/OT integration.
    Other heterogeneous sources can be integrated in the same way.
@@ -23,18 +26,21 @@ It is implemented with Node-RED and it serves two purposes:
    The stack begins with a Modbus device at the bottom
    and goes up to exposing an HTTP interface.
    
-   On top of this, the integration stack can be extended by other applications.
-   However, Node-RED is not needed for that because relevant softwares
-   like AAS servers and connectors (EDC Connector and variants)
-   come with their own tools for integrating HTTP APIs as data sources
-   (only configuration required).
+On top of the implemented stack (i.&thinsp;e. on top of the HTTP interface),
+the integration stack can be extended by other applications.
+However, Node-RED is not needed for that because relevant softwares
+like AAS servers and connectors (EDC Connector and variants)
+come with their own tools for integrating HTTP APIs as data sources
+(only configuration required).
+For example, the MX Port configurations “Hercules” and “Leo” are suitable for
+extending this stack and exposing the device data to an MX data space.
 
 If you need help with running this project in Node-RED, read the section
 [Getting started with Node-RED projects](#getting-started-with-node-red-projects).
 
 
 Teaser: What to find inside the project
------------------------------------
+---------------------------------------
 
 The project has the following flow structure:
 
@@ -54,7 +60,7 @@ as user interface, which is shown in the screenshot below:
 
 
 Using the HTTP API
----------------
+------------------
 
 The HTTP API exposed by the second MX Port (the upper one in the stack
 shown above) has a single endpoint:
@@ -118,7 +124,7 @@ and the response object provides a description of the error.
 
 
 Getting started with Node-RED projects
-----------------------------------
+--------------------------------------
 
 Basic knowledge of [Node-RED](https://nodered.org/)
 and access to an installation of Node-RED is assumed.
@@ -153,7 +159,7 @@ in the Node-RED frontend main menu.
 
 
 Project credentials
------------------
+-------------------
 
 This project does not contain any secrets (passwords, keys)
 for accessing external systems,
@@ -170,25 +176,59 @@ This file is not related to the project credentials file mentioned before.
 
 
 Funding notes
-------------
+-------------
 
-This work was developed within the project Factory-X supported by the German
-Federal Ministry for Economic Affairs and Energy with funding from the
-European Union based on the NextGenerationEU package.
+This work was developed within the research project Factory-X supported by the
+German Federal Ministry for Economic Affairs and Energy (BMWE) with funding
+from the European Union based on the NextGenerationEU package.
 
 ![Funding logo](doc/funding.png)
 
-Disclaimer: The views and opinions expressed in this work are solely
-those of the authors and do not necessarily reflect the views of
-the German Federal Ministry for Economic Affairs and Energy,
+**Disclaimer**: The views and opinions expressed in this work are solely
+those of the authors and do not necessarily reflect the views of the BMWE,
 the European Union, or the European Commission.
-Neither the German Federal Ministry for Economic Affairs and Energy,nor the
-European Union, nor the European Commission can be held responsible for them.
+Neither the BMWE, nor the European Union, nor the European Commission
+can be held responsible for them.
 
 
 Legal notes
-----------
+-----------
 
+The following applies to this project “MX Port Demo with Node-RED”.
+
+<!-- REUSE-IgnoreStart -->
+<!--
+REUSE shall ignore the following lines to avoid confusion of these
+project-level copyright statements with the file-level copyright statements
+at the top of this file.
+-->
 Copyright (c) 2025 Software GmbH, Darmstadt, Germany
+<!-- REUSE-IgnoreEnd -->
 
-License information to be added.
+This project is licensed under the Apache License, Version 2.0 (the “LICENSE”);
+you may not use this software except in compliance with the LICENSE.
+A copy of the LICENSE is provided in the file `LICENSE_Apache-2-0.txt`.
+You may also obtain a copy of the LICENSE at
+https://www.apache.org/licenses/LICENSE-2.0.
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the LICENSE is distributed on an *“AS IS” BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND*, either express or implied.
+See the LICENSE for the specific language governing permissions and
+limitations under the LICENSE.
+
+This project may comprise separate components provided by third-party
+developers and contributors. Copyright notices and license texts for these
+can be found in the file `THIRD-PARTY-LICENSES.txt` in this same directory or
+in license files in the respective directories where a component may be stored.
+
+Portions of this software which are copied from or based on third-party
+software, but not isolated from the remaining software, are marked in place,
+and the original versions are provided in the `lib` directory for reference.
+The inclusion is credited in the file `NOTICE.txt`, and copyright notices and
+license terms of the original versions are provided as stated above.
+
+> [!CAUTION]
+> **Logos, trademarks, etc. are not covered by the license of this project.
+> These may only be used in accordance with the regulations
+> of the respective owner.**

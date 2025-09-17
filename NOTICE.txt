@@ -1,0 +1,8 @@
+This work includes intellectual property of Software GmbH (www.softwareag.com)
+developed for the research project Factory-X supported by the
+German Federal Ministry for Economic Affairs and Energy (BMWE) with funding
+from the European Union based on the NextGenerationEU package.
+Copyright (c) 2025 Software GmbH, Darmstadt, Germany
+
+This software contains access control functionality developed by Andreas Rozek.
+Copyright (c) 2021 Andreas Rozek

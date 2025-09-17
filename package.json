@@ -1,7 +1,13 @@
 {
-    "name": "MX-Port_Node-RED",
-    "description": "Illustrating the concept of MX Ports with Node-RED",
+    "name": "@factory-x.org/mx-port-node-red",
     "version": "1.0.0",
+    "description": "Illustrating the concept of MX Ports with Node-RED",
+    "keywords": [ "node-red", "manufacturing-x", "factory-x", "mx-port" ],
+    "author": "Christian Winter (https://www.softwareag.com/)",
+    "contributors": [
+      "Aerika Modi (https://www.softwareag.com/)"
+    ],
+    "license": "Apache-2.0",
     "dependencies": {
         "@flowfuse/node-red-dashboard": "1.27.0",
         "node-red-contrib-modbus": "5.44.0",
