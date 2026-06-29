@@ -10,6 +10,9 @@ MX Port Demo with Node-RED
 
 *Illustrating the concept of MX Ports with Node-RED*
 
+> [!IMPORTANT]
+> **This repository is archived.** It will receive no further development or maintenance. Interested parties are invited to fork the repository and continue the work independently.
+
 This project is a self-contained demonstration system for the
 [MX Port concept](https://factory-x.org/wp-content/uploads/MX-Port-Concept-V1.00-1.pdf).
 It is implemented with Node-RED and it serves two purposes:
